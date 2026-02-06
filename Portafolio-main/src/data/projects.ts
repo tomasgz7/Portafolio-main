@@ -1,33 +1,33 @@
 export const projects = [
   {
-    name: "Developear — Ingeniería de Producto",
+    name: "Operational Efficiency Analysis - Logistics",
     description:
-      "Página de mi marca personal. Diseñado y desarrollado desde cero con Astro, TypeScript y TailwindCSS",
-    stack: ["Astro", "TypeScript", "TailwindCSS", "Netlify"],
+      "Analyzed operational inefficiencies in a logistics workflow, identifying process gaps and proposing data-driven improvements to increase delivery performance.",
+    stack: ["Operational Efficiency", "Business Strategy", "KPI Design"],
     github: "https://github.com/tomasgz7/Developear",
     demo: "https://developear.netlify.app/",
   },
   {
-    name: "Resilience Media Group",
+    name: "Digital Operations & Client Flow Analysis",
     description:
-      "Agencia de Marketing Digital desarrollado con React y JavaScript.",
-    stack: ["React", "JavaScript", "HTML5", "CSS3", "TailwindCSS"],
+      "Analyzed client acquisition and service delivery processes for a digital agency, improving workflow clarity and reducing execution friction..",
+    stack: ["Process Analysis", "Requirements Definition", "Business Strategy"],
     github: "https://github.com/tomasgz7/PaginaResilience",
     demo: "https://resiliencemediagroup.netlify.app",
   },
   {
-    name: "Kronner — Plataforma Logística",
+    name: "Kronner - Logistics Operations Analysis",
     description:
-      "Prototipo full-stack de gestión logística desarrollado con Node.js (Express) y JavaScript.",
-    stack: ["Node.js", "Express", "JavaScript", "HTML5", "CSS3"],
+      "Evaluated logistics operations for a growing service company, mapping workflows, identifying bottlenecks, and structuring a scalable operational model.",
+    stack: ["Process Analysis", "Workflow Optimization", "Operational Efficiency", "KPI Design"],
     github: "https://github.com/tomasgz7/PaginaKronner",
     demo: "https://kronner-logistica-prototipo.netlify.app/",
   },
   {
-    name: "Administrador de Fondos",
+    name: "Personal Finance Tracking - Behavioral Data Analysis",
     description:
-      "Aplicación web para control de gastos personales desarrollada con React. Incluye persistencia local, validación dinámica y actualización en tiempo real.",
-    stack: ["React", "JavaScript", "HTML5", "CSS3", "LocalStorage"],
+      "Designed a financial tracking model to analyze spending patterns, enabling better personal budgeting decisions through structured data visualization.",
+    stack: ["Data Modeling", "KPI Design", "Analytical Thinking"],
     github: "https://github.com/tomasgz7/CodeChallenge-ADF",
     demo: "https://fondos-codechallenge.netlify.app/",
   },
