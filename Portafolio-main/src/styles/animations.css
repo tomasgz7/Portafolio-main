@@ -1,0 +1,41 @@
+/* Section border animation */
+.section {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  transition: border-color 0.3s ease;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, white, transparent) 1;
+  border-radius: 0.5rem;
+  animation: borderAnimation 6s linear infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-image-source: linear-gradient(90deg, white, transparent);
+  }
+  25% {
+    border-image-source: linear-gradient(180deg, white, transparent);
+  }
+  50% {
+    border-image-source: linear-gradient(270deg, white, transparent);
+  }
+  75% {
+    border-image-source: linear-gradient(360deg, white, transparent);
+  }
+  100% {
+    border-image-source: linear-gradient(90deg, white, transparent);
+  }
+}

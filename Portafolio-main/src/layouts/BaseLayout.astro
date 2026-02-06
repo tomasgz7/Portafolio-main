@@ -1,0 +1,18 @@
+---
+import '../../styles/globals.css';
+const { title = 'Tomas Guzman – Portfolio' } = Astro.props;
+---
+<html lang="en" class="toji-bg">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <link rel="icon" type="image/png" href="/favicon.png?v=1" />
+    <meta name="description" content="Portafolio de Tomas Guzman, desarrollador frontend especializado en React, TypeScript y TailwindCSS. Diseño interfaces modernas, escalables y de alto rendimiento." />
+    <meta name="keywords" content="Frontend, React, TypeScript, TailwindCSS, Portfolio, Tomas Guzman, Developer, JavaScript, Spring Boot, Argentina" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body class="font-sans">
+    <slot />
+  </body>
+</html>

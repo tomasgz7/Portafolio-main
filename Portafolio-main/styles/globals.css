@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --background: linear-gradient(135deg, #091221 0%,  #042a7a 100%);
+  --background-alt:#661111;
+  --background-deep:#163832;
+  --border:#235347;
+  --accent:#0585E6;
+  --foreground:#A0E5D9;
+  --divider:rgba(243, 4, 4, 0.25);
+  --shadow:rgba(114, 33, 33, 0.4);
+}
+
+html, body {
+  background: var(--background);
+  color: var(--foreground);
+  scroll-behavior:smooth;
+}
+
+/* Brillos radiales estilo Toji */
+.toji-bg {
+  background:
+    radial-gradient(circle at 30% 70%, rgba(2,54,165,0.20), transparent 70%),
+    radial-gradient(circle at 70% 30%, rgba(254,3,105,0.15), transparent 70%);
+}
+
+.section {
+  @apply max-w-content mx-auto px-6 py-24 flex flex-col gap-6;
+}
+.section-title {
+  @apply text-xl md:text-2xl text-accent font-bold uppercase tracking-widest;
+}
+.badge {
+  @apply text-accent font-mono text-sm;
+}
+.card {
+  @apply rounded-2xl border border-white/5 p-6 hover:shadow-glow transition;
+}
+.link {
+  @apply text-accent underline-offset-4 hover:underline;
+}
